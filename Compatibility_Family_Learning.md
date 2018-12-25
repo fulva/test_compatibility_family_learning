@@ -245,19 +245,3 @@ Note that you must run data preprocesing in the Recommendation section before ru
 2. Run `python -m cfl.scripts.convert_disco --input-dir parsed_data/polyvore_random/top_to_other --output-dir parsed_data/polyvore_random/top_to_other_disco` for DiscoGAN.
 3. Run `python -m cfl.scripts.convert_pix2pix --input-dir parsed_data/polyvore_random/top_to_other --disco-dir parsed_data/polyvore_random/top_to_other_disco --output-dir parsed_data/polyvore_random/top_to_other_pix2pix` for pix2pix.
 4. Run DiscoGAN & pix2pix.
-
-## Citation
-
-If you use this code for your research, please cite our papers.
-
-```
-@inproceedings{shih2018compatibility,
-    author = {Shih, Yong-Siang and Chang, Kai-Yueh and Lin, Hsuan-Tien and Sun, Min},
-    title = {Compatibility Family Learning for Item Recommendation and Generation},
-    booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-    pdf = {https://arxiv.org/pdf/1712.01262},
-    arxiv = {http://arxiv.org/abs/1712.01262},
-    year = {2018},
-    month = feb
-}
-```
